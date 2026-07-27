@@ -1,7 +1,25 @@
 aid: hodl-media
 name: HODL Media
-description: HODL Media is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: HODL Media (hodl.mobi) is the maker of HODL Real-Time Cryptocurrency, a consumer mobile
+  application for iOS and Android that tracks cryptocurrency and stock market prices in real time. The
+  app aggregates pricing from 180+ global exchanges, offers customizable charting with technical
+  indicators, price alerts and bracket management, portfolio tracking with exchange and wallet
+  synchronization (Coinbase Pro, Binance, Ethereum wallets), aggregated news and social feeds, and
+  stock market data from NYSE and NASDAQ. It is a portfolio company of 500 Global. As of this profile
+  HODL Media publishes no public API, SDK, developer portal, or programmatic documentation; this repo
+  is maintained as an API Evangelist network lead.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.hodl.mobi/icon.png
 url: https://raw.githubusercontent.com/api-evangelist/hodl-media/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +29,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Cryptocurrency
+- Stocks
+- Market Data
+- Portfolio Tracking
+- Mobile App
+- Finance
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +45,18 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/hodl-media-domain-security.yml
 - type: Website
   url: https://hodl.mobi
+- type: Support
+  url: https://flashratings.helpshift.com/a/hodl
+- type: PrivacyPolicy
+  url: https://www.hodl.mobi/privacy.htm
+- type: TermsOfService
+  url: https://www.hodl.mobi/terms.htm
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
